@@ -5,10 +5,6 @@ eureka:
 server:
   port: 8763
 spring:
-  thymeleaf:
-    mode: HTML
-    prefix:
-      classpath: /templates/
   application:
     name: eurekaclient
   rabbitmq:
